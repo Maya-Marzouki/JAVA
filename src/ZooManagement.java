@@ -5,10 +5,10 @@ public class ZooManagement {
         int nbrCages, animalAge, nbAnimals,choix;
         boolean animalMammal;
         String zooName, animalFamily, animalName, city, animalName2, animalName3;
-        Aquatic aquatic= new Aquatic("p","abdesllam",22,false,"bhar");
-        Terrestrial terrestrial= new Terrestrial("a","halewa",10,true,2);
-        Dolphin dolphin= new Dolphin("d","d",3,false,"bhar",200);
-        Penguin penguin= new Penguin("p","p",2,false,"bhar",100);
+        Aquatic aquatic= new Aquatic("p","fish",24,false,"sea");
+        Terrestrial terrestrial= new Terrestrial("a","lizard",10,true,2);
+        Dolphin dolphin= new Dolphin("d","d",3,false,"sea",200);
+        Penguin penguin= new Penguin("p","p",2,false,"sea",100);
         System.out.println(aquatic.toString());
         aquatic.swim();
         System.out.println(terrestrial.toString());
